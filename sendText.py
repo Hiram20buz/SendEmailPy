@@ -2,6 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+
 userData=[]
 try:
     with open('user.txt', 'r') as file:
