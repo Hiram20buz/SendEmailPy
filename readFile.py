@@ -1,4 +1,4 @@
-file_path = 'data.txt'  # Replace with your file's path
+file_path = 'data.txt'
 
 try:
     with open(file_path, 'r') as file:
