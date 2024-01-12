@@ -5,8 +5,7 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-#temp_dir =os.environ['TEMP']
-#file_path = 'user.txt'  # Replace with your file's path
+
 userData=[]
 try:
     with open('user.txt', 'r') as file:
